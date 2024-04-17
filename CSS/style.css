@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+}
+
+#h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+#h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px;
+    font-size: 40px;
+    color:white
+}
+
+nav { flex: 1;
+    background-color: transparent;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+header {
+    background-color: black;
+    backdrop-filter: blur(30px);
+}
+
+#header2 {
+    margin-top: -10px;
+    backdrop-filter: blur(30px);
+}
+
+main { flex: 1;
+    margin-top: 10px;
+    background-color: transparent;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+    backdrop-filter: blur(50px);
+}
+
+body {
+    background-image: url(/img/pc.png);
+    
+
+}
+
+small {
+    color: white;
+    font-size: 15px;
+}
+
+label {
+    color: white;
+    font-size: 15px;
+}
+
+button {
+    font-size: 15px;
+}
+
+input {
+    font-size: 15px;
+}
+
+.form-group {
+    font-size: 30px;
+}
+
